@@ -4,7 +4,7 @@
   "description": "This is a school management system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Thamadi",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "express-jwt": "^6.1.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.14",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
   }
 }
